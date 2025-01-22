@@ -1,0 +1,31 @@
+body {
+  background: #484849;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.slider {
+  width: 200px;
+  height: 10px;
+  margin: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #000000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #d9acd9;
+  border-radius: 100%;
+  cursor: pointer;
+}
